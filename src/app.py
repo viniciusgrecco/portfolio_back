@@ -45,7 +45,7 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://portfolio-front-eta-five.vercel.app/*"
+        "https://portfolio-front-eta-five.vercel.app"
         "http://localhost:8501",
         "http://localhost:5173",
         "http://localhost:8080",
